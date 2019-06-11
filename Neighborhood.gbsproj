@@ -2,11 +2,11 @@
     "settings": {
         "showCollisions": true,
         "showConnections": true,
-        "startX": 3,
-        "startY": 29,
+        "startX": 12,
+        "startY": 14,
         "startDirection": "down",
         "zoom": 200,
-        "startSceneId": "78c7e72b-4721-4380-87a8-aba4cbbd4f0a",
+        "startSceneId": "f4b7c444-6d89-42a2-9366-523bb28a343c",
         "playerSpriteSheetId": "35a0143d-a54e-463f-9c01-5fc161827eda",
         "startAnimSpeed": "4",
         "startMoveSpeed": "1"
@@ -38,6 +38,14 @@
         {
             "id": "5",
             "name": "Sent letter"
+        },
+        {
+            "id": "6",
+            "name": "Distance from Ohio"
+        },
+        {
+            "id": "7",
+            "name": "Traveling West"
         }
     ],
     "backgrounds": [
@@ -209,7 +217,7 @@
             "imageWidth": 184,
             "imageHeight": 184,
             "filename": "roadtocleveland.png",
-            "_v": 1560225573951
+            "_v": 1560254861404
         }
     ],
     "spriteSheets": [
@@ -2929,8 +2937,8 @@
             "id": "3e7483cb-ce95-45c5-85a8-e27f9de43e8c",
             "name": "Inside the volcano",
             "backgroundId": "6308e84e-7608-4a46-9f46-fcb5892087c3",
-            "x": 1278,
-            "y": 171,
+            "x": 1239,
+            "y": 284.5,
             "width": 20,
             "height": 18,
             "actors": [
@@ -3017,7 +3025,14 @@
                             "id": "3d9969cf-e24a-4c50-94a5-13e3a0d2f3b4",
                             "command": "EVENT_TEXT",
                             "args": {
-                                "text": "You have great\npower. Use it\nwisely."
+                                "text": "You have a magical\nbook. It"
+                            }
+                        },
+                        {
+                            "id": "f7bd5c74-ce8f-488e-9158-488eda658659",
+                            "command": "EVENT_TEXT",
+                            "args": {
+                                "text": "It must be\nreturned to the\nmagic library."
                             }
                         },
                         {
@@ -3107,12 +3122,44 @@
             "id": "1e412db4-0124-41a5-bf2e-6e2a8263ce05",
             "name": "house by the water",
             "backgroundId": "fd68c056-c075-45c8-9ed0-2b09cde90a8d",
-            "x": 996.5,
-            "y": 30,
+            "x": 1330,
+            "y": 39,
             "width": 23,
             "height": 23,
             "actors": [],
             "triggers": [
+                {
+                    "id": "1ee695ea-24cf-409c-a968-ade63fd2d7df",
+                    "x": 0,
+                    "y": 4,
+                    "width": 1,
+                    "height": 4,
+                    "trigger": "walk",
+                    "script": [
+                        {
+                            "id": "bd6042e0-2636-44c6-9514-10e47bd4fc48",
+                            "command": "EVENT_SWITCH_SCENE",
+                            "args": {
+                                "sceneId": "e904158c-9657-4cb5-a8fc-593e8b97fa79",
+                                "x": 20,
+                                "y": 6,
+                                "direction": "left",
+                                "fadeSpeed": "2"
+                            }
+                        },
+                        {
+                            "id": "c27e9290-069f-4cd7-927b-89dde177567f",
+                            "command": "EVENT_SET_TRUE",
+                            "args": {
+                                "variable": "7"
+                            }
+                        },
+                        {
+                            "id": "31bd2cc6-dce2-4584-8199-2a47b1a3d772",
+                            "command": "EVENT_END"
+                        }
+                    ]
+                },
                 {
                     "id": "ec7608e9-f580-485d-8810-b63fb994c91c",
                     "x": 4,
@@ -3175,18 +3222,18 @@
                 2,
                 0,
                 48,
-                7,
+                1,
                 0,
                 152,
-                143,
-                31,
+                15,
+                0,
                 204,
                 252,
                 255,
                 4,
                 0,
                 128,
-                64,
+                0,
                 0,
                 192,
                 225,
@@ -3207,6 +3254,468 @@
                 0,
                 0,
                 0
+            ],
+            "script": [
+                {
+                    "id": "1f6e8d1a-4cb3-49e5-8048-c6d6a17830cd",
+                    "command": "EVENT_SET_VALUE",
+                    "args": {
+                        "variable": "6",
+                        "value": 7
+                    }
+                },
+                {
+                    "id": "31bd2cc6-dce2-4584-8199-2a47b1a3d772",
+                    "command": "EVENT_END"
+                }
+            ]
+        },
+        {
+            "id": "e904158c-9657-4cb5-a8fc-593e8b97fa79",
+            "name": "Road to Ohio",
+            "backgroundId": "d3261f95-6585-40c4-95c9-f1b2fe362427",
+            "x": 1138,
+            "y": 33,
+            "width": 23,
+            "height": 23,
+            "actors": [
+                {
+                    "id": "0b3ff9bf-80b3-477b-b45d-fb13d87d2c31",
+                    "spriteSheetId": "6eb1a9c8-38c5-4b5f-9d06-1e77e77b1cdc",
+                    "x": 3,
+                    "y": 4,
+                    "movementType": "static",
+                    "direction": "down",
+                    "moveSpeed": "1",
+                    "animSpeed": "3",
+                    "name": "West Sign",
+                    "script": [
+                        {
+                            "id": "a11a003f-2c73-4118-ac54-6a354275ddb8",
+                            "command": "EVENT_IF_TRUE",
+                            "args": {
+                                "variable": "7",
+                                "__collapseElse": true
+                            },
+                            "true": [
+                                {
+                                    "id": "2491ff7f-9ab7-4882-94f3-996de0e918da",
+                                    "command": "EVENT_IF_VALUE",
+                                    "args": {
+                                        "variable": "6",
+                                        "operator": "==",
+                                        "comparator": 6,
+                                        "__collapseElse": false,
+                                        "__collapse": false
+                                    },
+                                    "true": [
+                                        {
+                                            "id": "d4c9eaa2-f16b-415a-896f-23cc02639290",
+                                            "command": "EVENT_TEXT",
+                                            "args": {
+                                                "text": "What? This is\nNew Jersey!"
+                                            }
+                                        },
+                                        {
+                                            "id": "cfc68ba8-a90e-49e3-81ec-8cb920196083",
+                                            "command": "EVENT_END"
+                                        }
+                                    ],
+                                    "false": [
+                                        {
+                                            "id": "036f53ad-7361-44a9-99dd-c6d47feef396",
+                                            "command": "EVENT_IF_VALUE",
+                                            "args": {
+                                                "variable": "6",
+                                                "operator": "==",
+                                                "comparator": 5,
+                                                "__collapse": false
+                                            },
+                                            "true": [
+                                                {
+                                                    "id": "42f4c4e2-14d7-4e31-afd9-6a2cbc030a65",
+                                                    "command": "EVENT_TEXT",
+                                                    "args": {
+                                                        "text": "Hope you like\nPennsylvannia!"
+                                                    }
+                                                },
+                                                {
+                                                    "id": "9910ee2d-b79a-4c13-85bb-9b7ef531b751",
+                                                    "command": "EVENT_END"
+                                                }
+                                            ],
+                                            "false": [
+                                                {
+                                                    "id": "1d64a0e2-80e8-43e2-8531-c8b2279c8a45",
+                                                    "command": "EVENT_IF_VALUE",
+                                                    "args": {
+                                                        "variable": "6",
+                                                        "operator": "==",
+                                                        "comparator": 1,
+                                                        "__collapseElse": true
+                                                    },
+                                                    "true": [
+                                                        {
+                                                            "id": "884584a9-e8d4-4f5e-8997-8d95c2e0e033",
+                                                            "command": "EVENT_TEXT",
+                                                            "args": {
+                                                                "text": "Ohio welcomes you!"
+                                                            }
+                                                        },
+                                                        {
+                                                            "id": "bda1eb56-70ec-49a8-80dc-cf351233d553",
+                                                            "command": "EVENT_END"
+                                                        }
+                                                    ],
+                                                    "false": [
+                                                        {
+                                                            "id": "cf2d8078-773f-4888-96ce-d8ec8238c974",
+                                                            "command": "EVENT_END"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "id": "d47ed8e0-04ae-49bc-8790-163c5c2b6397",
+                                                    "command": "EVENT_END"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "d5809013-02f1-43ec-80c5-7d5039a37128",
+                                            "command": "EVENT_END"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "a71ed8ae-93c5-4007-bb64-a0ade707ffbe",
+                                    "command": "EVENT_END"
+                                }
+                            ],
+                            "false": [
+                                {
+                                    "id": "c6af41fc-735e-48aa-8f35-65948eb1af33",
+                                    "command": "EVENT_END"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "31bd2cc6-dce2-4584-8199-2a47b1a3d772",
+                            "command": "EVENT_END"
+                        }
+                    ]
+                }
+            ],
+            "triggers": [
+                {
+                    "id": "299a3f63-b74b-40f4-a7e1-810c4a91c0af",
+                    "x": 22,
+                    "y": 4,
+                    "width": 1,
+                    "height": 4,
+                    "trigger": "walk"
+                },
+                {
+                    "id": "99337d5b-5988-4062-8bdc-b4ccc2dea090",
+                    "x": 0,
+                    "y": 4,
+                    "width": 1,
+                    "height": 4,
+                    "trigger": "walk",
+                    "script": [
+                        {
+                            "id": "26149c21-a695-43c2-ab9e-2764a971f825",
+                            "command": "EVENT_DEC_VALUE",
+                            "args": {
+                                "variable": "6"
+                            }
+                        },
+                        {
+                            "id": "c58148eb-8b95-4e1e-80fb-7439ee198300",
+                            "command": "EVENT_IF_VALUE",
+                            "args": {
+                                "variable": "6",
+                                "operator": "==",
+                                "comparator": "0",
+                                "__collapse": true,
+                                "__collapseElse": true
+                            },
+                            "true": [
+                                {
+                                    "id": "ed9ab15b-1eeb-428f-9eda-e6b6745043c0",
+                                    "command": "EVENT_SWITCH_SCENE",
+                                    "args": {
+                                        "sceneId": "2ab192d9-fa2f-4c7a-b734-aa6230e2f800",
+                                        "x": 17,
+                                        "y": 17,
+                                        "direction": "left",
+                                        "fadeSpeed": "2"
+                                    }
+                                },
+                                {
+                                    "id": "ad012651-0cf9-4d93-ab75-3a4f9f109b29",
+                                    "command": "EVENT_END"
+                                }
+                            ],
+                            "false": [
+                                {
+                                    "id": "bfaffed0-972e-4886-b8cf-349a8740ad13",
+                                    "command": "EVENT_SWITCH_SCENE",
+                                    "args": {
+                                        "sceneId": "e904158c-9657-4cb5-a8fc-593e8b97fa79",
+                                        "x": 20,
+                                        "y": 5,
+                                        "direction": "left",
+                                        "fadeSpeed": "2"
+                                    }
+                                },
+                                {
+                                    "id": "b877a160-144a-454f-9ac5-01672c090c89",
+                                    "command": "EVENT_END"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "401d8d27-7423-4ad9-b960-a0a80c4322c8",
+                            "command": "EVENT_IF_TRUE",
+                            "args": {
+                                "variable": "7",
+                                "__collapseElse": true
+                            },
+                            "true": [
+                                {
+                                    "id": "1ced9cfa-19d8-4bb7-b086-f555cf98e440",
+                                    "command": "EVENT_IF_VALUE",
+                                    "args": {
+                                        "variable": "6",
+                                        "operator": "==",
+                                        "comparator": 6,
+                                        "__collapseElse": false,
+                                        "__collapse": true
+                                    },
+                                    "true": [
+                                        {
+                                            "id": "3469c3d6-890e-49e2-814e-37d7f5c027db",
+                                            "command": "EVENT_ACTOR_SHOW",
+                                            "args": {
+                                                "actorId": "0b3ff9bf-80b3-477b-b45d-fb13d87d2c31"
+                                            }
+                                        },
+                                        {
+                                            "id": "fd937e3c-5a55-4ac9-83bb-2be7472dae7e",
+                                            "command": "EVENT_END"
+                                        }
+                                    ],
+                                    "false": [
+                                        {
+                                            "id": "0bb16b0c-4014-4059-947b-80b9af32fbd9",
+                                            "command": "EVENT_IF_VALUE",
+                                            "args": {
+                                                "variable": "6",
+                                                "operator": "==",
+                                                "comparator": 5,
+                                                "__collapse": true
+                                            },
+                                            "true": [
+                                                {
+                                                    "id": "b43b8704-09ec-4413-b1da-e21b56de70e8",
+                                                    "command": "EVENT_ACTOR_SHOW",
+                                                    "args": {
+                                                        "actorId": "0b3ff9bf-80b3-477b-b45d-fb13d87d2c31",
+                                                        "__collapse": false
+                                                    }
+                                                },
+                                                {
+                                                    "id": "5dad19c1-1ea4-4915-8228-78cf8c9bf240",
+                                                    "command": "EVENT_END"
+                                                }
+                                            ],
+                                            "false": [
+                                                {
+                                                    "id": "ecd8ca82-d101-489b-832d-90f80a06ddb8",
+                                                    "command": "EVENT_IF_VALUE",
+                                                    "args": {
+                                                        "variable": "6",
+                                                        "operator": "==",
+                                                        "comparator": 1,
+                                                        "__collapseElse": true
+                                                    },
+                                                    "true": [
+                                                        {
+                                                            "id": "c10b2499-74b5-40c8-96ad-7b3a660a0903",
+                                                            "command": "EVENT_ACTOR_SHOW",
+                                                            "args": {
+                                                                "actorId": "0b3ff9bf-80b3-477b-b45d-fb13d87d2c31"
+                                                            }
+                                                        },
+                                                        {
+                                                            "id": "825d2140-680f-4863-9d13-c5ad26a68628",
+                                                            "command": "EVENT_END"
+                                                        }
+                                                    ],
+                                                    "false": [
+                                                        {
+                                                            "id": "b846e204-2290-4541-abd0-948480298e25",
+                                                            "command": "EVENT_END"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "id": "0b6e33a5-ae6e-4aa8-b45f-9e416164eecc",
+                                                    "command": "EVENT_END"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "8d115256-c497-49b8-b06d-8df7415ad5ee",
+                                            "command": "EVENT_END"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "8804c808-00ec-498a-bfda-1dd2067341d3",
+                                    "command": "EVENT_END"
+                                }
+                            ],
+                            "false": [
+                                {
+                                    "id": "67e0e0b9-77a0-40a1-90d1-a7f217154999",
+                                    "command": "EVENT_END"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "31bd2cc6-dce2-4584-8199-2a47b1a3d772",
+                            "command": "EVENT_END"
+                        }
+                    ]
+                }
+            ],
+            "collisions": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                64,
+                102,
+                102,
+                230,
+                204,
+                204,
+                12,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                255,
+                255,
+                127,
+                0,
+                0,
+                64,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "id": "2ab192d9-fa2f-4c7a-b734-aa6230e2f800",
+            "name": "Grandma's House",
+            "backgroundId": "ac5cff64-f725-4333-88cb-0d6c19cde443",
+            "x": 959.5,
+            "y": 40.5,
+            "width": 20,
+            "height": 18,
+            "actors": [],
+            "triggers": [],
+            "collisions": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                128,
+                255,
+                255,
+                8,
+                0,
+                156,
+                1,
+                224,
+                24,
+                120,
+                142,
+                192,
+                239,
+                248,
+                252,
+                15,
+                200,
+                252,
+                64,
+                0,
+                12,
+                4,
+                192,
+                192,
+                0,
+                12,
+                12,
+                128,
+                192,
+                120,
+                8,
+                252,
+                4
             ]
         }
     ],
