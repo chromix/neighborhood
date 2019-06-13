@@ -101,7 +101,7 @@
             "imageWidth": 256,
             "imageHeight": 256,
             "filename": "bg-88floral.png",
-            "_v": 1560430064739
+            "_v": 1560430281657
         },
         {
             "id": "e8723d9f-e806-4d32-9091-4f0a713a84b7",
@@ -111,7 +111,7 @@
             "imageWidth": 160,
             "imageHeight": 144,
             "filename": "bg-almostthere.png",
-            "_v": 1560430064738
+            "_v": 1560430281657
         },
         {
             "id": "ac5cff64-f725-4333-88cb-0d6c19cde443",
@@ -121,7 +121,7 @@
             "imageWidth": 160,
             "imageHeight": 144,
             "filename": "bg-cottage.png",
-            "_v": 1560430064739
+            "_v": 1560430281657
         },
         {
             "id": "4f69d507-6693-43bc-978b-d3f8b6ad6613",
@@ -131,7 +131,7 @@
             "imageWidth": 160,
             "imageHeight": 144,
             "filename": "bg-grandmas.png",
-            "_v": 1560430064740
+            "_v": 1560430281657
         },
         {
             "id": "fd68c056-c075-45c8-9ed0-2b09cde90a8d",
@@ -141,7 +141,7 @@
             "imageWidth": 184,
             "imageHeight": 184,
             "filename": "bg-house-by-the-lake.png",
-            "_v": 1560430064740
+            "_v": 1560430281657
         },
         {
             "id": "2f4dd3b4-47ad-4154-b83d-f132f7baf3bd",
@@ -151,7 +151,7 @@
             "imageWidth": 160,
             "imageHeight": 256,
             "filename": "bg-insidepit.png",
-            "_v": 1560430064740
+            "_v": 1560430281658
         },
         {
             "id": "4279e936-995b-47b6-917b-d37d3abc0c18",
@@ -161,7 +161,7 @@
             "imageWidth": 160,
             "imageHeight": 144,
             "filename": "bg-lc-room.png",
-            "_v": 1560430064740
+            "_v": 1560431609427
         },
         {
             "id": "d4b10cda-3b15-4ce1-88ac-1686da77375b",
@@ -171,7 +171,7 @@
             "imageWidth": 160,
             "imageHeight": 208,
             "filename": "bg-livingroom.png",
-            "_v": 1560430064740
+            "_v": 1560430281658
         },
         {
             "id": "357d9dab-11f1-45b6-ab70-3bfe36be14cf",
@@ -181,7 +181,7 @@
             "imageWidth": 256,
             "imageHeight": 144,
             "filename": "bg-neighbors.png",
-            "_v": 1560430064740
+            "_v": 1560430281658
         },
         {
             "id": "56307495-05fd-48c4-967f-37025e6fd634",
@@ -191,7 +191,7 @@
             "imageWidth": 160,
             "imageHeight": 256,
             "filename": "bg-path.png",
-            "_v": 1560430064740
+            "_v": 1560430281658
         },
         {
             "id": "821b0677-a71b-478f-bfa6-712975b384ce",
@@ -201,7 +201,7 @@
             "imageWidth": 160,
             "imageHeight": 144,
             "filename": "bg-pit.png",
-            "_v": 1560430064740
+            "_v": 1560430281658
         },
         {
             "id": "af31c998-e8dd-49c4-b4be-1b4eab0cf24d",
@@ -211,7 +211,7 @@
             "imageWidth": 256,
             "imageHeight": 144,
             "filename": "bg-tothewater.png",
-            "_v": 1560430064740
+            "_v": 1560430281658
         },
         {
             "id": "7ff7bf0a-6ad0-4532-b499-5e8688b94eee",
@@ -221,7 +221,7 @@
             "imageWidth": 160,
             "imageHeight": 144,
             "filename": "bg-volcano-backyard.png",
-            "_v": 1560430064740
+            "_v": 1560430281658
         },
         {
             "id": "6bbf2015-cd52-4f9f-8ac2-3d0440f7b1ac",
@@ -231,7 +231,7 @@
             "imageWidth": 256,
             "imageHeight": 256,
             "filename": "bg-volcano-base.png",
-            "_v": 1560430064740
+            "_v": 1560430281658
         },
         {
             "id": "a0f9e0dd-6c27-4905-aa22-8e9765712883",
@@ -241,7 +241,7 @@
             "imageWidth": 160,
             "imageHeight": 144,
             "filename": "bg-volcano.png",
-            "_v": 1560430064740
+            "_v": 1560430281658
         },
         {
             "id": "6308e84e-7608-4a46-9f46-fcb5892087c3",
@@ -251,7 +251,7 @@
             "imageWidth": 160,
             "imageHeight": 144,
             "filename": "cave.png",
-            "_v": 1560430064740
+            "_v": 1560430281658
         },
         {
             "id": "492383e0-fc90-4331-ad4b-0bfdfd4deacc",
@@ -261,7 +261,7 @@
             "imageWidth": 160,
             "imageHeight": 144,
             "filename": "house.png",
-            "_v": 1560430064740
+            "_v": 1560430281658
         },
         {
             "id": "178e4ff7-975b-4f2f-9961-eca6e534888c",
@@ -271,7 +271,7 @@
             "imageWidth": 160,
             "imageHeight": 144,
             "filename": "library.png",
-            "_v": 1560430064740
+            "_v": 1560430281658
         },
         {
             "id": "6d7b5c55-10f5-4c9b-a4ae-bc13701020be",
@@ -281,7 +281,7 @@
             "imageWidth": 160,
             "imageHeight": 144,
             "filename": "lighthouse.png",
-            "_v": 1560430064740
+            "_v": 1560430281658
         },
         {
             "id": "1e5f9d6a-bdbc-43e6-8c34-22f5bb5dea05",
@@ -291,7 +291,7 @@
             "imageWidth": 160,
             "imageHeight": 144,
             "filename": "placeholder.png",
-            "_v": 1560430064741
+            "_v": 1560430281658
         },
         {
             "id": "d3261f95-6585-40c4-95c9-f1b2fe362427",
@@ -301,7 +301,7 @@
             "imageWidth": 184,
             "imageHeight": 184,
             "filename": "roadtocleveland.png",
-            "_v": 1560430064740
+            "_v": 1560430281658
         },
         {
             "id": "ab9e70c4-aa39-47ea-87bd-0208881562f4",
@@ -311,7 +311,7 @@
             "imageWidth": 160,
             "imageHeight": 144,
             "filename": "solon.png",
-            "_v": 1560430064741
+            "_v": 1560430281659
         },
         {
             "id": "5e712e9c-23d2-40df-9e9a-71588b0e73e3",
@@ -321,7 +321,7 @@
             "imageWidth": 160,
             "imageHeight": 144,
             "filename": "titlecard.png",
-            "_v": 1560430064741
+            "_v": 1560430281659
         },
         {
             "id": "ee673598-cb19-4e10-99f3-e7724aa49721",
@@ -331,7 +331,7 @@
             "imageWidth": 1288,
             "imageHeight": 1423,
             "filename": "world.png",
-            "_v": 1560430064741
+            "_v": 1560430281659
         }
     ],
     "spriteSheets": [
@@ -341,7 +341,7 @@
             "numFrames": 6,
             "type": "actor_animated",
             "filename": "actor_animated.png",
-            "_v": 1560430064752
+            "_v": 1560430281662
         },
         {
             "id": "11b5452b-187c-43a3-afb1-a1f4f74ffda2",
@@ -349,7 +349,7 @@
             "numFrames": 3,
             "type": "actor",
             "filename": "actor.png",
-            "_v": 1560430064752
+            "_v": 1560430281662
         },
         {
             "id": "3caf35fb-7fd3-4953-8d30-232217d232d3",
@@ -357,7 +357,7 @@
             "numFrames": 1,
             "type": "static",
             "filename": "ball.png",
-            "_v": 1560430064752
+            "_v": 1560430281662
         },
         {
             "id": "87a0c13f-8a0b-4317-867d-0048824c7f1e",
@@ -365,7 +365,7 @@
             "numFrames": 1,
             "type": "static",
             "filename": "bella.png",
-            "_v": 1560430064752
+            "_v": 1560430281662
         },
         {
             "id": "ffa16e51-deaa-49a4-8869-fd0270f23fa8",
@@ -373,7 +373,7 @@
             "numFrames": 1,
             "type": "static",
             "filename": "book.png",
-            "_v": 1560430064752
+            "_v": 1560430281662
         },
         {
             "id": "a299d0b6-6305-4e40-90ed-25c90bf00395",
@@ -381,7 +381,7 @@
             "numFrames": 6,
             "type": "actor_animated",
             "filename": "callie.png",
-            "_v": 1560430064752
+            "_v": 1560430281662
         },
         {
             "id": "dde79506-cfd8-498d-af2d-406bb89c2729",
@@ -389,7 +389,7 @@
             "numFrames": 1,
             "type": "static",
             "filename": "chest.png",
-            "_v": 1560430064752
+            "_v": 1560430281662
         },
         {
             "id": "83bb9e4a-c292-4423-bee0-fc640cc129ab",
@@ -397,7 +397,7 @@
             "numFrames": 3,
             "type": "actor",
             "filename": "explorer.png",
-            "_v": 1560430064752
+            "_v": 1560430281662
         },
         {
             "id": "51aa3a49-27db-4319-a52a-4ff9224da9d2",
@@ -405,7 +405,7 @@
             "numFrames": 3,
             "type": "actor",
             "filename": "grandma.png",
-            "_v": 1560430064752
+            "_v": 1560430281662
         },
         {
             "id": "91802d8d-7aac-4fb5-a67c-c6be78b3d3a0",
@@ -413,7 +413,7 @@
             "numFrames": 3,
             "type": "actor",
             "filename": "grandpa.png",
-            "_v": 1560430064752
+            "_v": 1560430281662
         },
         {
             "id": "498e29fe-2d9e-4397-966f-63300731ab38",
@@ -421,7 +421,7 @@
             "numFrames": 1,
             "type": "static",
             "filename": "invisible.png",
-            "_v": 1560430064752
+            "_v": 1560430281662
         },
         {
             "id": "872004ef-f1dd-4205-9b41-b5ad30c73b6a",
@@ -429,7 +429,7 @@
             "numFrames": 1,
             "type": "static",
             "filename": "letter.png",
-            "_v": 1560430064752
+            "_v": 1560430281662
         },
         {
             "id": "35a0143d-a54e-463f-9c01-5fc161827eda",
@@ -437,7 +437,7 @@
             "numFrames": 6,
             "type": "actor_animated",
             "filename": "luke.png",
-            "_v": 1560430064752
+            "_v": 1560430281662
         },
         {
             "id": "53a77555-8fbc-4b47-ac2b-3ea852ef8b3a",
@@ -445,7 +445,7 @@
             "numFrames": 1,
             "type": "static",
             "filename": "mary.png",
-            "_v": 1560430064752
+            "_v": 1560430281662
         },
         {
             "id": "7ea89c15-62d2-49d5-84e2-d857fe3d1a32",
@@ -453,7 +453,7 @@
             "numFrames": 1,
             "type": "static",
             "filename": "oldwoman.png",
-            "_v": 1560430064752
+            "_v": 1560430281662
         },
         {
             "id": "6eb1a9c8-38c5-4b5f-9d06-1e77e77b1cdc",
@@ -461,7 +461,7 @@
             "numFrames": 1,
             "type": "static",
             "filename": "sign.png",
-            "_v": 1560430064753
+            "_v": 1560430281662
         },
         {
             "id": "f3da1da4-f2cf-461a-853a-1fd4a1e9c7cd",
@@ -469,7 +469,7 @@
             "numFrames": 3,
             "type": "actor",
             "filename": "someguy.png",
-            "_v": 1560430064753
+            "_v": 1560430281662
         },
         {
             "id": "0701864d-8c3c-48f8-bec6-c8ee530a7eef",
@@ -477,7 +477,7 @@
             "numFrames": 1,
             "type": "static",
             "filename": "someoldguy.png",
-            "_v": 1560430064753
+            "_v": 1560430281662
         },
         {
             "id": "daf95270-e30d-423b-9ee7-990ae29f57f6",
@@ -485,7 +485,7 @@
             "numFrames": 1,
             "type": "static",
             "filename": "static.png",
-            "_v": 1560430064753
+            "_v": 1560430281662
         },
         {
             "id": "7a241bf1-a143-41cb-9f85-043c9c0061d9",
@@ -493,7 +493,7 @@
             "numFrames": 3,
             "type": "actor",
             "filename": "vamp.png",
-            "_v": 1560430064753
+            "_v": 1560430281662
         }
     ],
     "scenes": [
@@ -506,6 +506,29 @@
             "width": 20,
             "height": 18,
             "actors": [
+                {
+                    "id": "ef7e160c-be06-45b4-8b13-d216d71edcb6",
+                    "spriteSheetId": "498e29fe-2d9e-4397-966f-63300731ab38",
+                    "x": 12,
+                    "y": 5,
+                    "movementType": "static",
+                    "direction": "down",
+                    "moveSpeed": "1",
+                    "animSpeed": "3",
+                    "script": [
+                        {
+                            "id": "21912658-c750-4e89-bff6-4c9779119dbb",
+                            "command": "EVENT_TEXT",
+                            "args": {
+                                "text": "I kind of feel\nlike I'm already\nplaying a game.."
+                            }
+                        },
+                        {
+                            "id": "1f2c4267-f181-4da8-b939-5ee0c1b1efab",
+                            "command": "EVENT_END"
+                        }
+                    ]
+                },
                 {
                     "id": "1e75ffd6-0381-421c-b1fd-73d7f4796437",
                     "spriteSheetId": "872004ef-f1dd-4205-9b41-b5ad30c73b6a",
@@ -687,7 +710,7 @@
                 51,
                 60,
                 48,
-                129,
+                128,
                 3,
                 3,
                 24,
@@ -720,6 +743,13 @@
                 255
             ],
             "script": [
+                {
+                    "id": "1a0f57c3-b951-4d07-a5fc-7280e2b89fb6",
+                    "command": "EVENT_ACTOR_SHOW",
+                    "args": {
+                        "actorId": "player"
+                    }
+                },
                 {
                     "id": "d14a458f-f286-4063-9fad-98f48a4b5982",
                     "command": "EVENT_SET_INPUT_SCRIPT",
@@ -6497,17 +6527,37 @@
                     }
                 },
                 {
-                    "id": "ee1c1162-fe56-4627-abad-b6514eaa1998",
-                    "command": "EVENT_SET_INPUT_SCRIPT",
+                    "id": "930a2915-679c-4b50-9bba-67307ab6bec1",
+                    "command": "EVENT_AWAIT_INPUT",
                     "args": {
-                        "input": "start"
-                    },
-                    "true": [
-                        {
-                            "id": "1540be5e-b2ea-4902-9506-698e02b3d555",
-                            "command": "EVENT_END"
-                        }
-                    ]
+                        "input": [
+                            "a",
+                            "b",
+                            "select",
+                            "start"
+                        ]
+                    }
+                },
+                {
+                    "id": "854baadb-15ca-4248-856b-6f158a1f87aa",
+                    "command": "EVENT_CHOICE",
+                    "args": {
+                        "variable": "2",
+                        "trueText": "Play as Lucas",
+                        "falseText": "Play as Calliope",
+                        "__collapse": false
+                    }
+                },
+                {
+                    "id": "912f8dfa-9830-4479-b6c0-928b33fe7480",
+                    "command": "EVENT_SWITCH_SCENE",
+                    "args": {
+                        "sceneId": "1f0b0242-5371-47fc-9e14-caa0fb94c062",
+                        "x": 4,
+                        "y": 4,
+                        "direction": "down",
+                        "fadeSpeed": "2"
+                    }
                 },
                 {
                     "id": "8890ea27-9715-489a-bea7-2a954cbfa218",
@@ -6521,7 +6571,7 @@
             "id": "f50428ab-a084-4591-9bba-2ba10fe7b1c6",
             "name": "template",
             "filename": "template.mod",
-            "_v": 1560430064754
+            "_v": 1560430281663
         }
     ]
 }
