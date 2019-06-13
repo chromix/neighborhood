@@ -161,7 +161,7 @@
             "imageWidth": 160,
             "imageHeight": 144,
             "filename": "bg-lc-room.png",
-            "_v": 1560431609427
+            "_v": 1560432698637
         },
         {
             "id": "d4b10cda-3b15-4ce1-88ac-1686da77375b",
@@ -856,6 +856,58 @@
                     "false": [
                         {
                             "id": "70e373bc-2878-46fa-9a25-1135836e749d",
+                            "command": "EVENT_END"
+                        }
+                    ]
+                },
+                {
+                    "id": "3a9fbf26-f205-4ceb-a090-0d913f2820d4",
+                    "command": "EVENT_IF_TRUE",
+                    "args": {
+                        "variable": "4"
+                    },
+                    "true": [
+                        {
+                            "id": "25f77847-9b1a-4b4b-8798-b0cbaafae0e9",
+                            "command": "EVENT_ACTOR_HIDE",
+                            "args": {
+                                "actorId": "1e75ffd6-0381-421c-b1fd-73d7f4796437"
+                            }
+                        },
+                        {
+                            "id": "c1467ffb-a453-49d1-880a-726667019cd2",
+                            "command": "EVENT_END"
+                        }
+                    ],
+                    "false": [
+                        {
+                            "id": "7d0880ac-d4a0-4b95-bc66-177902095b00",
+                            "command": "EVENT_END"
+                        }
+                    ]
+                },
+                {
+                    "id": "d123a0d7-39a3-4e06-9fc3-3ee4b55c4d63",
+                    "command": "EVENT_IF_TRUE",
+                    "args": {
+                        "variable": "5"
+                    },
+                    "true": [
+                        {
+                            "id": "efc62cb1-428b-4dfc-a82f-17f7ba738a3b",
+                            "command": "EVENT_ACTOR_HIDE",
+                            "args": {
+                                "actorId": "1e75ffd6-0381-421c-b1fd-73d7f4796437"
+                            }
+                        },
+                        {
+                            "id": "8c8b5122-addc-41dd-bb4e-b17dab71bbd5",
+                            "command": "EVENT_END"
+                        }
+                    ],
+                    "false": [
+                        {
+                            "id": "28f9b21d-5aff-4f52-bb06-c74b5a3614f2",
                             "command": "EVENT_END"
                         }
                     ]
